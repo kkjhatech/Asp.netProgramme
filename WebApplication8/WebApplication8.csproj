@@ -112,6 +112,9 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="Country\State\City\City.aspx" />
+    <Content Include="Data\Countries\Countries.xml" />
+    <Content Include="Data\Countries\DropDownList.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -125,10 +128,13 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Part14_Linkbutton.aspx" />
+    <Content Include="Part23_CheckboxList.aspx" />
     <Content Include="part44_RequiredFieldValidator.aspx" />
     <Content Include="Part47_RegularExpression.aspx" />
     <Content Include="Part8_ispostback.aspx" />
     <Content Include="WebForm1.aspx" />
+    <Content Include="WelcomeScan.jpg" />
+    <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -181,6 +187,20 @@
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Country\State\City\City.aspx.cs">
+      <DependentUpon>City.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Country\State\City\City.aspx.designer.cs">
+      <DependentUpon>City.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Countries\DropDownList.aspx.cs">
+      <DependentUpon>DropDownList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Data\Countries\DropDownList.aspx.designer.cs">
+      <DependentUpon>DropDownList.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -197,6 +217,13 @@
     </Compile>
     <Compile Include="Part14_Linkbutton.aspx.designer.cs">
       <DependentUpon>Part14_Linkbutton.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Part23_CheckboxList.aspx.cs">
+      <DependentUpon>Part23_CheckboxList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Part23_CheckboxList.aspx.designer.cs">
+      <DependentUpon>Part23_CheckboxList.aspx</DependentUpon>
     </Compile>
     <Compile Include="part44_RequiredFieldValidator.aspx.cs">
       <DependentUpon>part44_RequiredFieldValidator.aspx</DependentUpon>
