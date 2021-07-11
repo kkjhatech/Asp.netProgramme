@@ -19,7 +19,7 @@ namespace WebApplication8
         }
 
         protected void btnSubmit_Click(object sender, EventArgs e)
-        {
+        {   //---------------------------1----------------------------------
             //ClicksCount = ClicksCount + 1;
             //TextBox1.Text = ClicksCount.ToString();
 
@@ -27,18 +27,18 @@ namespace WebApplication8
             //every time we click the button.When you click it the first time, it gets incremented to 1.After that,
             //no matter how many times you click it, the value stays at 1.This is because of the stateless nature of 
             //the web applications that work on HTTP protocol.
-
+            //------------------------------2------------------------------
             //if (ViewState["Clicks"] != null)
             //{
             //    ClicksCount = (int)ViewState["Clicks"] + 1;
             //}
             //TextBox1.Text = ClicksCount.ToString(); ;
             //ViewState["Clicks"] = ClicksCount;
-
+            //----------------------------3------------------
             // Now, let's try to achieve the same behaviour, without explicitly storing data in a ViewState variable. Modify the WebForm1 code as shown below.
             int ClicksCount = Convert.ToInt32(TextBox1.Text) + 1;
             TextBox1.Text = ClicksCount.ToString();
-
+           
             // Upon clicking the Button, the value gets incremented correctly 
             //as expected.This is possible because, TextBox1 is an asp.net server control,
             //that uses viewstate internally, to preserve data across postbacks.
