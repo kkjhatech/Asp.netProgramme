@@ -2,6 +2,6 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
-    <img src="Country/State/City/Welcome Scan.jpg" width="50px" height="50px" />
+    <div>Part 3- ViewState Example- <a href="Part3_ViewStateExample.aspx" >ViewState Example</a></div> 
 
 </asp:Content>

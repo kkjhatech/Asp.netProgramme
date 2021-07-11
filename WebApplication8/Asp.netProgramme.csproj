@@ -129,6 +129,7 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Part14_Linkbutton.aspx" />
     <Content Include="Part23_CheckboxList.aspx" />
+    <Content Include="Part3_ViewStateExample.aspx" />
     <Content Include="part44_RequiredFieldValidator.aspx" />
     <Content Include="Part47_RegularExpression.aspx" />
     <Content Include="Part8_ispostback.aspx" />
@@ -224,6 +225,13 @@
     </Compile>
     <Compile Include="Part23_CheckboxList.aspx.designer.cs">
       <DependentUpon>Part23_CheckboxList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Part3_ViewStateExample.aspx.cs">
+      <DependentUpon>Part3_ViewStateExample.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Part3_ViewStateExample.aspx.designer.cs">
+      <DependentUpon>Part3_ViewStateExample.aspx</DependentUpon>
     </Compile>
     <Compile Include="part44_RequiredFieldValidator.aspx.cs">
       <DependentUpon>part44_RequiredFieldValidator.aspx</DependentUpon>
