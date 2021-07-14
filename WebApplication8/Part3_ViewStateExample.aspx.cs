@@ -38,7 +38,7 @@ namespace WebApplication8
             // Now, let's try to achieve the same behaviour, without explicitly storing data in a ViewState variable. Modify the WebForm1 code as shown below.
             int ClicksCount = Convert.ToInt32(TextBox1.Text) + 1;
             TextBox1.Text = ClicksCount.ToString();
-           
+
             // Upon clicking the Button, the value gets incremented correctly 
             //as expected.This is possible because, TextBox1 is an asp.net server control,
             //that uses viewstate internally, to preserve data across postbacks.

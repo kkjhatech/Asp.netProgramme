@@ -127,11 +127,18 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="Par6_PageLifecycle.aspx" />
     <Content Include="Part14_Linkbutton.aspx" />
     <Content Include="Part23_CheckboxList.aspx" />
     <Content Include="Part3_ViewStateExample.aspx" />
     <Content Include="part44_RequiredFieldValidator.aspx" />
     <Content Include="Part47_RegularExpression.aspx" />
+    <Content Include="Part5_ApplicationState1.aspx" />
+    <Content Include="Part5_applicationState2.aspx" />
+    <Content Include="Part5_Session1.aspx" />
+    <Content Include="Part5_session2.aspx" />
+    <Content Include="Part5_ViewState1.aspx" />
+    <Content Include="Part5_ViewState2.aspx" />
     <Content Include="Part8_ispostback.aspx" />
     <Content Include="WebForm1.aspx" />
     <Content Include="WelcomeScan.jpg" />
@@ -212,6 +219,13 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Par6_PageLifecycle.aspx.cs">
+      <DependentUpon>Par6_PageLifecycle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Par6_PageLifecycle.aspx.designer.cs">
+      <DependentUpon>Par6_PageLifecycle.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Part14_Linkbutton.aspx.cs">
       <DependentUpon>Part14_Linkbutton.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -246,6 +260,48 @@
     </Compile>
     <Compile Include="Part47_RegularExpression.aspx.designer.cs">
       <DependentUpon>Part47_RegularExpression.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Part5_ApplicationState1.aspx.cs">
+      <DependentUpon>Part5_ApplicationState1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Part5_ApplicationState1.aspx.designer.cs">
+      <DependentUpon>Part5_ApplicationState1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Part5_applicationState2.aspx.cs">
+      <DependentUpon>Part5_applicationState2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Part5_applicationState2.aspx.designer.cs">
+      <DependentUpon>Part5_applicationState2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Part5_Session1.aspx.cs">
+      <DependentUpon>Part5_Session1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Part5_Session1.aspx.designer.cs">
+      <DependentUpon>Part5_Session1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Part5_session2.aspx.cs">
+      <DependentUpon>Part5_session2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Part5_session2.aspx.designer.cs">
+      <DependentUpon>Part5_session2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Part5_ViewState1.aspx.cs">
+      <DependentUpon>Part5_ViewState1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Part5_ViewState1.aspx.designer.cs">
+      <DependentUpon>Part5_ViewState1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Part5_ViewState2.aspx.cs">
+      <DependentUpon>Part5_ViewState2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Part5_ViewState2.aspx.designer.cs">
+      <DependentUpon>Part5_ViewState2.aspx</DependentUpon>
     </Compile>
     <Compile Include="Part8_ispostback.aspx.cs">
       <DependentUpon>Part8_ispostback.aspx</DependentUpon>
