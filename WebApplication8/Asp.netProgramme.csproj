@@ -139,6 +139,7 @@
     <Content Include="Part5_session2.aspx" />
     <Content Include="Part5_ViewState1.aspx" />
     <Content Include="Part5_ViewState2.aspx" />
+    <Content Include="Part7_ControlEvent.aspx" />
     <Content Include="Part8_ispostback.aspx" />
     <Content Include="WebForm1.aspx" />
     <Content Include="WelcomeScan.jpg" />
@@ -302,6 +303,13 @@
     </Compile>
     <Compile Include="Part5_ViewState2.aspx.designer.cs">
       <DependentUpon>Part5_ViewState2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Part7_ControlEvent.aspx.cs">
+      <DependentUpon>Part7_ControlEvent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Part7_ControlEvent.aspx.designer.cs">
+      <DependentUpon>Part7_ControlEvent.aspx</DependentUpon>
     </Compile>
     <Compile Include="Part8_ispostback.aspx.cs">
       <DependentUpon>Part8_ispostback.aspx</DependentUpon>
