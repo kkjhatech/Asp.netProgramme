@@ -130,6 +130,7 @@
     <Content Include="Par6_PageLifecycle.aspx" />
     <Content Include="Part14_Linkbutton.aspx" />
     <Content Include="Part23_CheckboxList.aspx" />
+    <Content Include="Part30_fileUploadControl.aspx" />
     <Content Include="Part3_ViewStateExample.aspx" />
     <Content Include="part44_RequiredFieldValidator.aspx" />
     <Content Include="Part47_RegularExpression.aspx" />
@@ -241,6 +242,13 @@
     <Compile Include="Part23_CheckboxList.aspx.designer.cs">
       <DependentUpon>Part23_CheckboxList.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Part30_fileUploadControl.aspx.cs">
+      <DependentUpon>Part30_fileUploadControl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Part30_fileUploadControl.aspx.designer.cs">
+      <DependentUpon>Part30_fileUploadControl.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Part3_ViewStateExample.aspx.cs">
       <DependentUpon>Part3_ViewStateExample.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -350,6 +358,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="ImageUpload\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

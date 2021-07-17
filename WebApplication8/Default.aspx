@@ -11,4 +11,5 @@
     <div>Part 5- Application 2 Example- <a href="Part5_applicationState2.aspx" > Part 5 Application 2 Example</a></div> 
      <div>Part 6- Page Life Cycle- <a href="Par6_PageLifecycle.aspx" > Part 6 Page Life cycle Example</a></div> 
      <div>Part 7- Contrl event- <a href="Part7_ControlEvent.aspx" > Part 7 Control event Example</a></div> 
+    <div>Part 30- FileUpload- <a href="Part30_fileUploadControl.aspx" > Part 30- FileUpload Example</a></div> 
 </asp:Content>
