@@ -12,4 +12,5 @@
      <div>Part 6- Page Life Cycle- <a href="Par6_PageLifecycle.aspx" > Part 6 Page Life cycle Example</a></div> 
      <div>Part 7- Contrl event- <a href="Part7_ControlEvent.aspx" > Part 7 Control event Example</a></div> 
     <div>Part 30- FileUpload- <a href="Part30_fileUploadControl.aspx" > Part 30- FileUpload Example</a></div> 
+    <div>Part 31- Ad Rotator control- <a href="Part31_AdrotatorControl.aspx" > Part 31- Ad Rotator Example</a></div> 
 </asp:Content>

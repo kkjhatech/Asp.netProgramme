@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>~/ImageUpload/myntra.png</ImageUrl>
+    <NavigateUrl>https://www.myntra.com/</NavigateUrl>
+    <AlternateText>Please visit Myntra shoping site</AlternateText>
+    <Impressions>10</Impressions>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/ImageUpload/amazon.jpg</ImageUrl>
+    <NavigateUrl>https://www.amazon.in/</NavigateUrl>
+    <AlternateText>Please visit Amazon shoping site</AlternateText>
+    <Impressions>20</Impressions>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/ImageUpload/Flipkart.jpg</ImageUrl>
+    <NavigateUrl>https://www.flipkart.com/</NavigateUrl>
+    <AlternateText>Please visit Flipkart shoping site</AlternateText>
+    <Impressions>40</Impressions>
+  </Ad>
+<Ad>
+    <ImageUrl>~/ImageUpload/Ajio.png</ImageUrl>
+    <NavigateUrl>https://www.ajio.com/</NavigateUrl>
+    <AlternateText>Please visit ajio shoping site</AlternateText>
+    <Impressions>40</Impressions>
+  </Ad>
+</Advertisements>
