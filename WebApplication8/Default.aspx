@@ -13,4 +13,6 @@
      <div>Part 7- Contrl event- <a href="Part7_ControlEvent.aspx" > Part 7 Control event Example</a></div> 
     <div>Part 30- FileUpload- <a href="Part30_fileUploadControl.aspx" > Part 30- FileUpload Example</a></div> 
     <div>Part 31- Ad Rotator control- <a href="Part31_AdrotatorControl.aspx" > Part 31- Ad Rotator Example</a></div> 
+
+    <div>Part 32- Calendar control- <a href="Part32_CalendarControl.aspx" > Part 32- Calendar control Example</a></div> 
 </asp:Content>

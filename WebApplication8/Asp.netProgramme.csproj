@@ -17,7 +17,7 @@
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
-    <IISExpressSSLPort />
+    <IISExpressSSLPort>44307</IISExpressSSLPort>
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
@@ -133,6 +133,7 @@
     <Content Include="Part23_CheckboxList.aspx" />
     <Content Include="Part30_fileUploadControl.aspx" />
     <Content Include="Part31_AdrotatorControl.aspx" />
+    <Content Include="Part32_CalendarControl.aspx" />
     <Content Include="Part3_ViewStateExample.aspx" />
     <Content Include="part44_RequiredFieldValidator.aspx" />
     <Content Include="Part47_RegularExpression.aspx" />
@@ -257,6 +258,13 @@
     </Compile>
     <Compile Include="Part31_AdrotatorControl.aspx.designer.cs">
       <DependentUpon>Part31_AdrotatorControl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Part32_CalendarControl.aspx.cs">
+      <DependentUpon>Part32_CalendarControl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Part32_CalendarControl.aspx.designer.cs">
+      <DependentUpon>Part32_CalendarControl.aspx</DependentUpon>
     </Compile>
     <Compile Include="Part3_ViewStateExample.aspx.cs">
       <DependentUpon>Part3_ViewStateExample.aspx</DependentUpon>
