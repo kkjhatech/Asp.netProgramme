@@ -15,4 +15,5 @@
     <div>Part 31- Ad Rotator control- <a href="Part31_AdrotatorControl.aspx" > Part 31- Ad Rotator Example</a></div> 
 
     <div>Part 32- Calendar control- <a href="Part32_CalendarControl.aspx" > Part 32- Calendar control Example</a></div> 
+    <div>Part 32- Jquery Datepicker Calendar- <a href="Part32_JqueryDatePicker.aspx" > Part 32-Jquery Datepicker Calendar</a></div>
 </asp:Content>
